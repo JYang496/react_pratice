@@ -1,0 +1,26 @@
+
+body{
+  margin: 0;
+  background: #5F5F5F;
+}
+
+.squareContainer{
+  padding-top: 20px;
+  margin: auto;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.square{
+  outline: 1px solid white;
+  width: 20px;
+  height: 20px;
+}
+
+.square:hover{
+  background-color: rgb(0,0,0);
+}
